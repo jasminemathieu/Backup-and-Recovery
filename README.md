@@ -99,30 +99,35 @@ I retrieved the 'RecoveredVM' virtual machine in the Resource Group component an
 
 ![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
 
-I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'.
+I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'. I was unable to complete the process due to a subscription error.
 
 ![ip issues](https://imgur.com/kY2L63Y.jpg) 
 
-## 456 
-![confirm correct rg assignment2](https://imgur.com/pr2QEhw.jpg) 
+![ip issues2](https://imgur.com/pr2QEhw.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/xgzNybr.jpg) 
+I had to recreate the vm machine and its restore machine as reflected below.
+
+![take2](https://imgur.com/xgzNybr.jpg) 
+
+From here I was able to configure a public IP address for the 'RecoveredVM' machine
 
 ![confirm correct rg assignment](https://imgur.com/Jg0wPv3.jpg) 
 
-## jasmine
 ![confirm correct rg assignment2](https://imgur.com/jLdUYgz.jpg) 
 
+The IP address configuration was complete.
 ![confirm correct rg assignment](https://imgur.com/bbxLRhQ.jpg) 
 
+I then created inbound rules to allow RDP for the machine.
 ![confirm correct rg assignment](https://imgur.com/MEm7v7o.jpg) 
 
 ![confirm correct rg assignment2](https://imgur.com/grXt9DB.jpg) 
 
-## mother
 ![confirm correct rg assignment](https://imgur.com/5VOZrtJ.jpg) 
 
 ![confirm correct rg assignment2](https://imgur.com/xnPY4cZ.jpg) 
+
+I was able to remote into the machine and confirm the restore machine duplication was successful.
 
 ![confirm correct rg assignment](https://imgur.com/ep6oO7G.jpg) 
 
