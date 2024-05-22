@@ -42,24 +42,14 @@ The Enhanced policy sub type was choosen to automate a full backup every 4 hours
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
 ## First Backup Service Completed
+The first full backup has been successfully created in the below image as timestamped at 5/21/2024 12:18:21 PM. File Recovery was selected to complete the next step to download the executeable file to retrieve the backup on the 'backup-vm' machine. 
 
-![Confirmation of role assignment](https://imgur.com/mD9MRR3.jpg) 
-
-## Assigning Resource Group-level Contributor Permissions
-
-Resource group 'Permissions Tester' has been created in this section. In Access Control (IAM), found within the Subscription component, we are able to add the Privileged administrator role of a Contributor to user rgcontributordave.
-
-![resource group](https://imgur.com/biy8lOE.jpg)
-
-![assigning group](https://imgur.com/I35AQGf.jpg)
+![first backup](https://imgur.com/I35AQGf.jpg)
 
 ![assigning group2](https://imgur.com/VVrfpz2.jpg)
 
-## Resource Group-level Contributor Permissions Assignment Check
-
-The below two images are references to indicate the Resource Group-level Contributor role was correctly configured. The top image reflects all resource groups under the admin account. The second image documents the only one resource group, Permissions Tester, that was assigned to rgcontributordave. 
-
 ![confirm correct rg assignment](https://imgur.com/JJc32w8.jpg) 
+ddsasdsadas
 
 ![confirm correct rg assignment2](https://imgur.com/clLk8gD.jpg) 
 
