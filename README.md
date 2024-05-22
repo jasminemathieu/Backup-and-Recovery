@@ -96,29 +96,29 @@ The below two images are references to indicate the Resource Group-level Contrib
 
 ![confirm correct rg assignment2](https://imgur.com/6DkPGO0.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/9yrEbSF.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/3zhNJj2.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/wuBs00M.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/NDCOkIn.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/iVhRTr2.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/dkvsrQW.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/5rru1Cm.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/6B3uxiK.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/YJfbEOW.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/qOmki3q.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/kEV6hto.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/rOdtJxg.jpg) 
 
 ![confirm correct rg assignment](.jpg) 
 
