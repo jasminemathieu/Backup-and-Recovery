@@ -99,16 +99,12 @@ I retrieved the 'RecoveredVM' virtual machine in the Resource Group component an
 
 ![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
 
-GOOOO 
+I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'.
 
-![confirm correct rg assignment](https://imgur.com/kY2L63Y.jpg) 
+![ip issues](https://imgur.com/kY2L63Y.jpg) 
 
 ## 456 
 ![confirm correct rg assignment2](https://imgur.com/pr2QEhw.jpg) 
-
-![confirm correct rg assignment](https://imgur.com/cYi6Ato.jpg) 
-
-![confirm correct rg assignment](https://imgur.com/OtnhbfZ.jpg) 
 
 ![confirm correct rg assignment2](https://imgur.com/xgzNybr.jpg) 
 
