@@ -4,35 +4,44 @@
 
 ## Introduction
 
-This project covers the implementation of Azure Backup services. This service provides a cost effective, secure and simple solution to back up and recover valuebale data stored in the cloud. The result will be the high availablilty of valueable resources.
+This project covers the implementation of Azure Backup services. This service provides a cost effective, secure and simple solution to back up and recover valueable data stored in the cloud. The result will be the high availablilty of resources and data.
 
 ### Components used to complete this project:
 
 - Azure Resource Groups
+- Azure Virtual Machine
 - Microsoft Remote Desktop
 
 ## Setup
+
 We begin this project with the creation of a new virtual machine 'backup-vm'
+
 ![New VM Creation](https://imgur.com/J8OrCHq.jpg) 
 
 Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample'. 
 ![new vm items](https://imgur.com/Ta484UI.jpg)
 
+## Configuring Backup Services
+
+The backup and site recovery service was implemented for Azure's marketing place in the effort to provide a cloud backup solution for data and ensure servers, virtual machines, and apps can easily fail over to a replicated environment and continue working.
+
 ![backup in marketplace](https://imgur.com/yqvzmIa.jpg) 
 
-### New User Configuration Check
+![](https://imgur.com/umayheb.jpg)
+
 As observed in the below image, globalreaderjohn's assigned role has been successfully implemented as the user is unable to make password changes for other users. 
 
-![Confirmation of successful assignment](.jpg)
+![Assign reader role2](https://imgur.com/CSv5EoM.jpg)
 
-## Assigning Subscription-level Role
+![Confirmation of successful assignment](https://imgur.com/NN4ft2U.jpg)
+
 In this section of the project, subreaderjane was assigned a subscription-level role as a reader. 
-
-![Assign reader role](.jpg)
 
 ![Assign reader role2](.jpg)
 
 ![Assign reader role4](.jpg) 
+
+### New User Configuration Check
 
 ### Subscription-level Role Assignment Check
 As shown below while signed in under subreaderjane's account, the assigned role has been successfully implemented as marked under the "My role" column. 
