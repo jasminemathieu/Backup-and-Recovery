@@ -120,52 +120,31 @@ The below two images are references to indicate the Resource Group-level Contrib
 
 ![confirm correct rg assignment2](https://imgur.com/rOdtJxg.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/kY2L63Y.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/pr2QEhw.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/cYi6Ato.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/OtnhbfZ.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/xgzNybr.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/Jg0wPv3.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/jLdUYgz.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/bbxLRhQ.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/MEm7v7o.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/grXt9DB.jpg) 
 
-![confirm correct rg assignment](.jpg) 
+![confirm correct rg assignment](https://imgur.com/5VOZrtJ.jpg) 
 
-![confirm correct rg assignment2](.jpg) 
+![confirm correct rg assignment2](https://imgur.com/xnPY4cZ.jpg) 
 
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment2](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment2](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment2](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
-![confirm correct rg assignment2](.jpg) 
-
-![confirm correct rg assignment](.jpg) 
-
+![confirm correct rg assignment](https://imgur.com/ep6oO7G.jpg) 
 
 ## Conclusion
 System administrator key skills include system maintenance and health monitoring, thus ensuring that their company's computers, servers, and internet are always available. This includes setting up and maintaining the system and installing, debugging, and evaluating a new technology for their businesses.
