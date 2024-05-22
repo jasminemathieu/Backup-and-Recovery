@@ -56,16 +56,16 @@ After the executeable file download was complete, test items previously created 
 
 ![confirm correct rg assignment](https://imgur.com/9npV3VU.jpg) 
 
-The password for the executable file was copied to 
+The password for the executable file was copied in order to access the file.
 ![confirm correct rg assignment2](https://imgur.com/0U9MDqY.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/FFyTmeT.jpg) 
+The executeable was ran in Powershell and unlocked with the aforementioned password.
+![powershell process](https://imgur.com/FFyTmeT.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/RzMOGby.jpg) 
+The file was successfully accessed as shown below.
+![powershell complete](https://imgur.com/JZ8D66n.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/JZ8D66n.jpg) 
-
-## 123
+## Backup Serivce - File Recovery Successly Completed
 ![confirm correct rg assignment2](https://imgur.com/y2QVWQq.jpg) 
 
 ![confirm correct rg assignment](https://imgur.com/uyo7sDP.jpg) 
