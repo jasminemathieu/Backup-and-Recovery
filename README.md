@@ -20,24 +20,21 @@ We begin this project with the creation of a new virtual machine 'backup-vm'
 
 ![New VM Creation](https://imgur.com/J8OrCHq.jpg) 
 
-Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample'. 
+Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample' as reflected in the below image.
 ![new vm items](https://imgur.com/Ta484UI.jpg)
 
 ## Configuring Backup Services
 
-The backup and site recovery service was implemented for Azure's marketing place in the effort to provide a cloud backup solution for data and ensure servers, virtual machines, and apps can easily fail over to a replicated environment and continue working.
+The backup and site recovery service was downlaoded from Azure's Marketplace. The backup and site recovery service provides a cloud solution that ensures data, servers, virtual machines, and applications can be easily accessible from a replicated environment. 
 
 ![backup in marketplace](https://imgur.com/yqvzmIa.jpg) 
 
-![](https://imgur.com/umayheb.jpg)
+![downloading backup service](https://imgur.com/umayheb.jpg)
 
-As observed in the below image, globalreaderjohn's assigned role has been successfully implemented as the user is unable to make password changes for other users. 
+![review and create backup service](https://imgur.com/CSv5EoM.jpg)
 
-![Assign reader role2](https://imgur.com/CSv5EoM.jpg)
-
-![Confirmation of successful assignment](https://imgur.com/NN4ft2U.jpg)
-
-In this section of the project, subreaderjane was assigned a subscription-level role as a reader. 
+Below displays the configuration of the first backup for virtual machine 'backup-vm' in the Recovery Service Vault.
+![config backup for vm](https://imgur.com/NN4ft2U.jpg)
 
 ![Assign reader role2](https://imgur.com/zDvU54U.jpg)
 
