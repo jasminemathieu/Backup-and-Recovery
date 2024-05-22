@@ -52,29 +52,32 @@ The first full backup has been successfully created in the below image as timest
 
 After the executeable file download was complete, test items previously created were deleted: 'Test server' and 'backup sample'. The success of the backup configuration process will be determined by if we can make the test items available for access again.
 
-![confirm correct rg assignment2](https://imgur.com/clLk8gD.jpg) 
+![delete test items1](https://imgur.com/clLk8gD.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/9npV3VU.jpg) 
+![delete test items2](https://imgur.com/9npV3VU.jpg) 
 
 The password for the executable file was copied in order to access the file.
-![confirm correct rg assignment2](https://imgur.com/0U9MDqY.jpg) 
+![copy pw](https://imgur.com/0U9MDqY.jpg) 
 
-The executeable was ran in Powershell and unlocked with the aforementioned password.
+On the virtual machine, the executeable was ran in Powershell and unlocked with the aforementioned password.
 ![powershell process](https://imgur.com/FFyTmeT.jpg) 
 
 The file was successfully accessed as shown below.
 ![powershell complete](https://imgur.com/JZ8D66n.jpg) 
 
 ## Backup Serivce - File Recovery Successly Completed
-![confirm correct rg assignment2](https://imgur.com/y2QVWQq.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/uyo7sDP.jpg) 
+The backup can be found in the D drive where we can see the 'Test server' and 'backup sample' are available. 
+![this pc server](https://imgur.com/y2QVWQq.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/pjlX3Xg.jpg) 
+![d drive](https://imgur.com/uyo7sDP.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/3PWT9p7.jpg) 
+The virtual machine has been disconnected and the executeable file was then unmounted.
+![unmounted1](https://imgur.com/pjlX3Xg.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/sUyeDFV.jpg) 
+![unmounted2](https://imgur.com/3PWT9p7.jpg) 
+
+![unmounted3](https://imgur.com/sUyeDFV.jpg) 
 
 ##efg
 ![confirm correct rg assignment](https://imgur.com/hhwdkBh.jpg) 
