@@ -111,25 +111,26 @@ I had to recreate the vm machine and its restore machine as reflected below.
 
 From here I was able to configure a public IP address for the 'RecoveredVM' machine
 
-![confirm correct rg assignment](https://imgur.com/Jg0wPv3.jpg) 
+![ip config](https://imgur.com/Jg0wPv3.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/jLdUYgz.jpg) 
+![ip config2](https://imgur.com/jLdUYgz.jpg) 
 
 The IP address configuration was complete.
-![confirm correct rg assignment](https://imgur.com/bbxLRhQ.jpg) 
+![ip complete](https://imgur.com/bbxLRhQ.jpg) 
 
 I then created inbound rules to allow RDP for the machine.
-![confirm correct rg assignment](https://imgur.com/MEm7v7o.jpg) 
+![RDP config1](https://imgur.com/MEm7v7o.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/grXt9DB.jpg) 
+![RDP config2](https://imgur.com/grXt9DB.jpg) 
 
-![confirm correct rg assignment](https://imgur.com/5VOZrtJ.jpg) 
+![RDP confirmed](https://imgur.com/5VOZrtJ.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/xnPY4cZ.jpg) 
-
+## Success Restore Confirmation
 I was able to remote into the machine and confirm the restore machine duplication was successful.
 
-![confirm correct rg assignment](https://imgur.com/ep6oO7G.jpg) 
+![confirm restore](https://imgur.com/ep6oO7G.jpg) 
 
 ## Conclusion
-System administrator key skills include system maintenance and health monitoring, thus ensuring that their company's computers, servers, and internet are always available. This includes setting up and maintaining the system and installing, debugging, and evaluating a new technology for their businesses.
+In this project, I was able to successfully configure and complete a full cloud-native backup service and machine restore in Azure. Both methods prove to be powerful on-premises data protection solutions, useful in events of service disruptions, accidental deletions or corruption of data. It's equally secure, scalable, and cost-effective as it is simple to architect, highly available, and resilient.
+
+fin
