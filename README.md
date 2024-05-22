@@ -46,16 +46,17 @@ The first full backup has been successfully created in the below image as timest
 
 ![first backup](https://imgur.com/I35AQGf.jpg)
 
-![assigning group2](https://imgur.com/VVrfpz2.jpg)
+![exec file gen](https://imgur.com/VVrfpz2.jpg)
 
-![confirm correct rg assignment](https://imgur.com/JJc32w8.jpg) 
-ddsasdsadas
+![exec dl](https://imgur.com/JJc32w8.jpg) 
+
+After the executeable file download was complete, test items previously created were deleted: 'Test server' and 'backup sample'. The success of the backup configuration process will be determined by if we can make the test items available for access again.
 
 ![confirm correct rg assignment2](https://imgur.com/clLk8gD.jpg) 
 
 ![confirm correct rg assignment](https://imgur.com/9npV3VU.jpg) 
 
-## abc
+The password for the executable file was copied to 
 ![confirm correct rg assignment2](https://imgur.com/0U9MDqY.jpg) 
 
 ![confirm correct rg assignment](https://imgur.com/FFyTmeT.jpg) 
