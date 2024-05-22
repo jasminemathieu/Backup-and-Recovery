@@ -4,12 +4,14 @@
 
 ## Introduction
 
-This project covers the implementation of Azure Backup services. This service provides a cost effective, secure and simple solution to back up and recover valueable data stored in the cloud. The result will be the high availablilty of resources and data.
+This project covers the implementation of Azure Backup services and two methods of creating fail proof resource and data availability. This method provides a cost effective, secure and simple solution to back up and recover valueable data stored in the cloud. The result will be the high availablilty of resources and data.
 
 ### Components used to complete this project:
 
 - Azure Resource Groups
 - Azure Virtual Machine
+- Azure Recovery Services Vaults
+- Azure Public IP Addresses
 - Microsoft Remote Desktop
 
 ## Setup
