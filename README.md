@@ -77,19 +77,27 @@ The virtual machine has been disconnected and the executeable file was then unmo
 
 ![unmounted2](https://imgur.com/3PWT9p7.jpg) 
 
-![unmounted3](https://imgur.com/sUyeDFV.jpg) 
+## Backup via Restore 
 
-##efg
-![confirm correct rg assignment](https://imgur.com/hhwdkBh.jpg) 
+This portion of the project will cover the process of restoring a full virtual machine from a backup. I ran into complications during the process and I will cover how I recovered and successfully completed the restore.
 
-![confirm correct rg assignment2](https://imgur.com/YjHN11Z.jpg) 
+![restore vm start](https://imgur.com/sUyeDFV.jpg) 
 
-![confirm correct rg assignment2](https://imgur.com/u2VQ8fM.jpg) 
+The restore configuration process is displayed below and the backup restore asset has been named 'RecoveredVM'.
 
-![confirm correct rg assignment](https://imgur.com/1uzNzo2.jpg) 
+![restore config](https://imgur.com/hhwdkBh.jpg) 
 
-##hijk
-![confirm correct rg assignment2](https://imgur.com/6DkPGO0.jpg) 
+The configuration has been successfully completed, timestamped 5/21/2024 1:31:18 PM.
+
+![config complete](https://imgur.com/YjHN11Z.jpg) 
+
+I retrieved the 'RecoveredVM' virtual machine in the Resource Group component and discovered the machine did not have a public IP address.
+
+![recoveredvm](https://imgur.com/u2VQ8fM.jpg) 
+
+![recoveredvm no ip1](https://imgur.com/1uzNzo2.jpg) 
+
+![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
 
 ![confirm correct rg assignment](https://imgur.com/9yrEbSF.jpg) 
 
