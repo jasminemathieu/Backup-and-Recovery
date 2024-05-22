@@ -33,17 +33,15 @@ The backup and site recovery service was downlaoded from Azure's Marketplace. Th
 
 ![review and create backup service](https://imgur.com/CSv5EoM.jpg)
 
-Below displays the configuration of the first backup for virtual machine 'backup-vm' in the Recovery Service Vault.
+Below displays the configuration process of the first backup for virtual machine 'backup-vm' in the Recovery Service Vault.
 ![config backup for vm](https://imgur.com/NN4ft2U.jpg)
 
-![Assign reader role2](https://imgur.com/zDvU54U.jpg)
+The Enhanced policy sub type was choosen to automate a full backup every 4 hours daily.
+![backup config selection](https://imgur.com/zDvU54U.jpg)
 
-![Assign reader role4](https://imgur.com/HbQzm8E.jpg) 
+![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
-### New User Configuration Check
-
-### Subscription-level Role Assignment Check
-As shown below while signed in under subreaderjane's account, the assigned role has been successfully implemented as marked under the "My role" column. 
+## First Backup Service Completed
 
 ![Confirmation of role assignment](https://imgur.com/mD9MRR3.jpg) 
 
@@ -57,7 +55,7 @@ Resource group 'Permissions Tester' has been created in this section. In Access 
 
 ![assigning group2](https://imgur.com/VVrfpz2.jpg)
 
-### Resource Group-level Contributor Permissions Assignment Check
+## Resource Group-level Contributor Permissions Assignment Check
 
 The below two images are references to indicate the Resource Group-level Contributor role was correctly configured. The top image reflects all resource groups under the admin account. The second image documents the only one resource group, Permissions Tester, that was assigned to rgcontributordave. 
 
