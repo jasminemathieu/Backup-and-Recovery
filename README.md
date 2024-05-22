@@ -125,7 +125,7 @@ I then created inbound rules to allow RDP for the machine.
 
 ![RDP confirmed](https://imgur.com/5VOZrtJ.jpg) 
 
-## Success Restore Confirmation
+## Successful Restore Confirmation
 I was able to remote into the machine and confirm the restore machine duplication was successful.
 
 ![confirm restore](https://imgur.com/ep6oO7G.jpg) 
@@ -133,4 +133,4 @@ I was able to remote into the machine and confirm the restore machine duplicatio
 ## Conclusion
 In this project, I was able to successfully configure and complete a full cloud-native backup service and machine restore in Azure. Both methods prove to be powerful on-premises data protection solutions, useful in events of service disruptions, accidental deletions or corruption of data. It's equally secure, scalable, and cost-effective as it is simple to architect, highly available, and resilient.
 
-fin
+## fin
