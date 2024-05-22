@@ -74,6 +74,28 @@ The below two images are references to indicate the Resource Group-level Contrib
 
 ![confirm correct rg assignment2](https://imgur.com/RzMOGby.jpg) 
 
+![confirm correct rg assignment](https://imgur.com/JZ8D66n.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/y2QVWQq.jpg) 
+
+![confirm correct rg assignment](https://imgur.com/uyo7sDP.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/pjlX3Xg.jpg) 
+
+![confirm correct rg assignment](https://imgur.com/3PWT9p7.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/sUyeDFV.jpg) 
+
+![confirm correct rg assignment](https://imgur.com/hhwdkBh.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/YjHN11Z.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/u2VQ8fM.jpg) 
+
+![confirm correct rg assignment](https://imgur.com/1uzNzo2.jpg) 
+
+![confirm correct rg assignment2](https://imgur.com/6DkPGO0.jpg) 
+
 ![confirm correct rg assignment](.jpg) 
 
 ![confirm correct rg assignment2](.jpg) 
@@ -84,11 +106,66 @@ The below two images are references to indicate the Resource Group-level Contrib
 
 ![confirm correct rg assignment](.jpg) 
 
+![confirm correct rg assignment](.jpg) 
+
 ![confirm correct rg assignment2](.jpg) 
 
 ![confirm correct rg assignment](.jpg) 
 
 ![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
+![confirm correct rg assignment2](.jpg) 
+
+![confirm correct rg assignment](.jpg) 
+
 
 ## Conclusion
 System administrator key skills include system maintenance and health monitoring, thus ensuring that their company's computers, servers, and internet are always available. This includes setting up and maintaining the system and installing, debugging, and evaluating a new technology for their businesses.
