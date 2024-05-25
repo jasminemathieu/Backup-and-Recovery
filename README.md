@@ -16,28 +16,15 @@ This project covers the implementation of Azure Backup services and two methods 
 
 ## Setup
 
-We begin this project with the creation of a new virtual machine 'backup-vm'
+We begin this project with the creation of a new virtual machine 'backup-vm'. Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample' as reflected in the below image.
 
-![New VM Creation](https://imgur.com/J8OrCHq.jpg) 
-
-Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample' as reflected in the below image.
 ![new vm items](https://imgur.com/Ta484UI.jpg)
+
+# Part 1 - File Recovery
 
 ## Configuring Backup Services
 
-The backup and site recovery service was downloaded from Azure's Marketplace. The backup and site recovery service provides a cloud solution that ensures data, servers, virtual machines, and applications can be easily accessible from a replicated environment. 
-
-![backup in marketplace](https://imgur.com/yqvzmIa.jpg) 
-
-![downloading backup service](https://imgur.com/umayheb.jpg)
-
-![review and create backup service](https://imgur.com/CSv5EoM.jpg)
-
-Below displays the configuration process of the first backup for virtual machine 'backup-vm' in the Recovery Service Vault.
-![config backup for vm](https://imgur.com/NN4ft2U.jpg)
-
-The Enhanced policy sub type was chosen to automate a full backup every 4 hours daily.
-![backup config selection](https://imgur.com/zDvU54U.jpg)
+The backup and site recovery service was downloaded from Azure's Marketplace. The backup and site recovery service provides a cloud solution that ensures data, servers, virtual machines, and applications can be easily accessible from a replicated environment. I configured the first backup for virtual machine 'backup-vm' in the Recovery Service Vault with the Enhanced policy sub type chosen to automate full backups every 4 hours daily.
 
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
@@ -46,36 +33,26 @@ The first full backup has been successfully created in the below image as timest
 
 ![first backup](https://imgur.com/I35AQGf.jpg)
 
-![exec file gen](https://imgur.com/VVrfpz2.jpg)
-
-![exec dl](https://imgur.com/JJc32w8.jpg) 
-
 After the executable file download was complete, test items previously created were deleted: 'Test server' and 'backup sample'. The success of the backup configuration process will be determined by if we can make the test items available for access again.
 
 ![delete test items1](https://imgur.com/clLk8gD.jpg) 
 
 ![delete test items2](https://imgur.com/9npV3VU.jpg) 
 
-The password for the executable file was copied in order to access the file.
-![copy pw](https://imgur.com/0U9MDqY.jpg) 
-
-On the virtual machine, the executable was ran in PowerShell and unlocked with the aforementioned password.
+On the virtual machine, the executable was ran in PowerShell using C# scripting. I was able to successfully unlocked the access to the executable file with the password provided in Azure.
 ![powershell process](https://imgur.com/FFyTmeT.jpg) 
 
-The file was successfully accessed as shown below.
 ![powershell complete](https://imgur.com/JZ8D66n.jpg) 
 
 ## Backup Service - File Recovery Successfully Completed
 
-The backup can be found in the D drive where we can see the 'Test server' and 'backup sample' are available. 
-![this pc server](https://imgur.com/y2QVWQq.jpg) 
+The backup can be found in the D drive where we can see the 'Test server' and 'backup sample' are available. The virtual machine has been disconnected and the executable file was then unmounted.
 
 ![d drive](https://imgur.com/uyo7sDP.jpg) 
 
-The virtual machine has been disconnected and the executable file was then unmounted.
-![unmounted1](https://imgur.com/pjlX3Xg.jpg) 
-
 ![unmounted2](https://imgur.com/3PWT9p7.jpg) 
+
+# Part 2 - Restore VM
 
 ## Backup via Restore 
 
