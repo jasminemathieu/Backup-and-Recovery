@@ -20,13 +20,13 @@ We begin this project with the creation of a new virtual machine 'backup-vm'. Tw
 
 ![new vm items](https://imgur.com/Ta484UI.jpg)
 
-# Part 1 - File Recovery
-
 ## Configuring Backup Services
 
 The backup and site recovery service was downloaded from Azure's Marketplace. The backup and site recovery service provides a cloud solution that ensures data, servers, virtual machines, and applications can be easily accessible from a replicated environment. I configured the first backup for virtual machine 'backup-vm' in the Recovery Service Vault with the Enhanced policy sub type chosen to automate full backups every 4 hours daily.
 
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
+
+# Part 1 - File Recovery
 
 ## First Backup Service Completed
 The first full backup has been successfully created in the below image as timestamped at 5/21/2024 12:18:21 PM. File Recovery was selected to complete the next step to download the executable file to retrieve the backup on the 'backup-vm' machine. 
@@ -60,35 +60,21 @@ This portion of the project will cover the process of restoring a full virtual m
 
 ![restore vm start](https://imgur.com/sUyeDFV.jpg) 
 
-The restore configuration process is displayed below and the backup restore asset has been named 'RecoveredVM'.
-
-![restore config](https://imgur.com/hhwdkBh.jpg) 
-
-The configuration has been successfully completed, timestamped 5/21/2024 1:31:18 PM.
+The backup restore asset has been configured as displayed below, named 'RecoveredVM'. The configuration has been successfully completed, timestamped 5/21/2024 1:31:18 PM.
 
 ![config complete](https://imgur.com/YjHN11Z.jpg) 
 
-I retrieved the 'RecoveredVM' virtual machine in the Resource Group component and discovered the machine did not have a public IP address.
-
-![recoveredvm](https://imgur.com/u2VQ8fM.jpg) 
-
-![recoveredvm no ip1](https://imgur.com/1uzNzo2.jpg) 
+After unsuccessful attempts of accessing the virtual machine, I discovered it did not have a public IP address.
 
 ![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
 
-I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'. I was unable to complete the process due to a subscription error.
+I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'. Due to a subscription error, I was unable to complete the process. I had to recreate the vm machine and its restore machine as reflected below to complete the process.
 
 ![ip issues](https://imgur.com/kY2L63Y.jpg) 
-
-![ip issues2](https://imgur.com/pr2QEhw.jpg) 
-
-I had to recreate the vm machine and its restore machine as reflected below.
 
 ![take2](https://imgur.com/xgzNybr.jpg) 
 
 From here I was able to configure a public IP address for the 'RecoveredVM' machine
-
-![ip config](https://imgur.com/Jg0wPv3.jpg) 
 
 ![ip config2](https://imgur.com/jLdUYgz.jpg) 
 
@@ -96,7 +82,6 @@ The IP address configuration was complete.
 ![ip complete](https://imgur.com/bbxLRhQ.jpg) 
 
 I then created inbound rules to allow RDP for the machine.
-![RDP config1](https://imgur.com/MEm7v7o.jpg) 
 
 ![RDP config2](https://imgur.com/grXt9DB.jpg) 
 
