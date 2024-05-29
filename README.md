@@ -1,9 +1,8 @@
 # Backup-and-Recovery
 
-
 <div align="center">
 
-![Azure Backup Logo](https://imgur.com/4K31GiX.jpg)
+![Azure Backup Logo](https://imgur.com/x7GfsIG.jpg)
 
 </div>
 
