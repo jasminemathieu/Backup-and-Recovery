@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Azure Backup Logo](https://imgur.com/x7GfsIG.jpg)
+![Azure Backup Logo](https://imgur.com/VVl1i8B.jpg)
 
 </div>
 
