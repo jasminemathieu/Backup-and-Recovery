@@ -8,25 +8,32 @@
 
 ## Introduction
 
-This project covers the implementation of Azure Backup services and two methods of creating fail proof resource and data availability. This method provides a cost effective, secure and simple solution to back up and recover valuable data stored in the cloud. The result will be the high availability of resources and data.
+The Backup and Recovery project focuses on implementing Azure Backup services and two methods for ensuring fail-proof resource and data availability. By using this approach, we can achieve cost-effective, secure, and straightforward data backup and recovery solutions for valuable cloud-stored data. The ultimate goal is to maintain high availability for resources and critical data.
 
-### Components used to complete this project:
+### Components Used
 
-- Azure Resource Groups
-- Azure Virtual Machine
-- Azure Recovery Services Vaults
-- Azure Public IP Addresses
-- Microsoft Remote Desktop
+To complete this project, we utilize the following Azure components:
 
-## Setup
+    Azure Resource Groups: Organizational containers for managing Azure resources.
+    Azure Virtual Machine: A scalable, flexible compute resource in the cloud.
+    Azure Recovery Services Vaults: Secure storage for backup data.
+    Azure Public IP Addresses: Enables communication with resources over the internet.
+    Microsoft Remote Desktop: Facilitates remote access to virtual machines.
 
-We begin this project with the creation of a new virtual machine 'backup-vm'. Two new test items were created in the virtual machine's C drive, 'Test server' and 'backup sample' as reflected in the below image.
+## Project Setup
+
+1. Creating the Virtual Machine (‘backup-vm’):
+   -  Set up a new virtual machine named ‘backup-vm’
+   -  Within the virtual machine’s C drive, create two test items: ‘Test server’ and ‘backup sample’
 
 ![new vm items](https://imgur.com/Ta484UI.jpg)
 
-## Configuring Backup Services
+2. Configuring Backup Services:
 
-The backup and site recovery service was downloaded from Azure's Marketplace. The backup and site recovery service provides a cloud solution that ensures data, servers, virtual machines, and applications can be easily accessible from a replicated environment. I configured the first backup for virtual machine 'backup-vm' in the Recovery Service Vault with the Enhanced policy sub type chosen to automate full backups every 4 hours daily.
+    - Download the backup and site recovery service from Azure’s Marketplace
+    - This service ensures that data, servers, virtual machines, and applications are accessible from a replicated environment
+    - Configure the first backup for the ‘backup-vm’ virtual machine in the Recovery Service Vault
+    - Choose the Enhanced policy subtype to automate full backups every 4 hours daily.
 
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
