@@ -38,26 +38,27 @@ To complete this project, we utilize the following Azure components:
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
 # Part 1 - File Recovery
+This part of the project will focus on creating a robust backup system and ensuring successful file recovery as shown in the following steps:
 
-## First Backup Service Completed
-The first full backup has been successfully created in the below image as timestamped at 5/21/2024 12:18:21 PM. File Recovery was selected to complete the next step to download the executable file to retrieve the backup on the 'backup-vm' machine. 
+1. Backup Creation: We’ve successfully completed the first full backup, timestamped at 5/21/2024 12:18:21 PM. This initial backup is crucial for data safety.
 
+2. Executable File Download: After creating the backup, we downloaded it as an executable file. This file will help us retrieve the backup on the ‘backup-vm’ machine.
+ 
 ![first backup](https://imgur.com/I35AQGf.jpg)
 
-After the executable file download was complete, test items previously created were deleted: 'Test server' and 'backup sample'. The success of the backup configuration process will be determined by if we can make the test items available for access again.
+3. Test Items Deletion: As part of our testing process, we intentionally deleted test items (‘Test server’ and ‘backup sample’). Our goal now is to recover these deleted files.
 
 ![delete test items1](https://imgur.com/clLk8gD.jpg) 
 
 ![delete test items2](https://imgur.com/9npV3VU.jpg) 
 
-On the virtual machine, the executable was ran in PowerShell using C# scripting. I was able to successfully unlocked the access to the executable file with the password provided in Azure.
+4. Recovery Process: On the virtual machine, we executed the downloaded executable using PowerShell and C# scripting. Successfully unlocking access to the executable file using the provided Azure password was a critical step.
+
 ![powershell process](https://imgur.com/FFyTmeT.jpg) 
 
 ![powershell complete](https://imgur.com/JZ8D66n.jpg) 
 
-## Backup Service - File Recovery Successfully Completed
-
-The backup can be found in the D drive where we can see the 'Test server' and 'backup sample' are available. The virtual machine has been disconnected and the executable file was then unmounted.
+5. Backup Verification: The backup is stored in the D drive. We can confirm that ‘Test server’ and ‘backup sample’ are available. Additionally, we disconnected the virtual machine and unmounted the executable file.
 
 ![d drive](https://imgur.com/uyo7sDP.jpg) 
 
