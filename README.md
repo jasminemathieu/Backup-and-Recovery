@@ -37,7 +37,7 @@ To complete this project, we utilize the following Azure components:
 
 ![backup config complete](https://imgur.com/HbQzm8E.jpg) 
 
-# Part 1 - File Recovery
+# Part 1: File Recovery
 This part of the project will focus on creating a robust backup system and ensuring successful file recovery as shown in the following steps:
 
 1. Backup Creation: We’ve successfully completed the first full backup, timestamped at 5/21/2024 12:18:21 PM. This initial backup is crucial for data safety.
@@ -64,47 +64,46 @@ This part of the project will focus on creating a robust backup system and ensur
 
 ![unmounted2](https://imgur.com/3PWT9p7.jpg) 
 
-# Part 2 - Restore VM
+With these steps completed, our Backup Service - File Recovery is now successfully configured.
 
-## Backup via Restore 
+# Part 2: Restore VM
+In this section of the project, we delve into the process of restoring a full virtual machine from a backup. Despite encountering complications, I successfully completed the restore configuration and implementation. Let’s break it down:
 
-This portion of the project will cover the process of restoring a full virtual machine from a backup. I ran into complications during the process, and will cover how I was able to successfully completed the restore configuration and implementation process.
+1. Initial Configuration:
+   - The backup restore asset, named ‘RecoveredVM,’ was configured (as shown in the image below) and timestamped at 5/21/2024 1:31:18 PM.
+   - However, attempts to access the virtual machine failed due to the absence of a public IP address.
 
 ![restore vm start](https://imgur.com/sUyeDFV.jpg) 
 
-The backup restore asset has been configured as displayed below, named 'RecoveredVM'. The configuration has been successfully completed, timestamped 5/21/2024 1:31:18 PM.
-
 ![config complete](https://imgur.com/YjHN11Z.jpg) 
 
-After unsuccessful attempts of accessing the virtual machine, I discovered it did not have a public IP address.
+2. Addressing IP Issues:
+ - I encountered challenges while assigning a public IP address to the backup restore machine.
+ - Subscription errors hindered the process, leading me to recreate both the VM and its restore machine (as reflected in the images below).
 
 ![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
-
-I ran into complications when assigning a public IP address to the backup restore machine 'RecoveredVM'. Due to a subscription error, I was unable to complete the process. I had to recreate the vm machine and its restore machine as reflected below to complete the process.
 
 ![ip issues](https://imgur.com/kY2L63Y.jpg) 
 
 ![take2](https://imgur.com/xgzNybr.jpg) 
 
-From here I was able to configure a public IP address for the 'RecoveredVM' machine
+3. Successful IP Configuration:
+   - Eventually, I configured a public IP address for the ‘RecoveredVM’ machine (as seen in the image below).
 
 ![ip config2](https://imgur.com/jLdUYgz.jpg) 
 
-The IP address configuration was complete.
 ![ip complete](https://imgur.com/bbxLRhQ.jpg) 
 
-I then created inbound rules to allow RDP for the machine.
+4. Inbound Rules for RDP:
+   - To ensure remote desktop access, I created inbound rules.
+   - Confirming successful restore machine duplication with a remote access to the duplicate machine validated my efforts (see confirmation images below).
 
 ![RDP config2](https://imgur.com/grXt9DB.jpg) 
 
 ![RDP confirmed](https://imgur.com/5VOZrtJ.jpg) 
 
-## Successful Restore Confirmation
-I was able to remote into the machine and confirm the restore machine duplication was successful.
-
 ![confirm restore](https://imgur.com/ep6oO7G.jpg) 
 
 ## Conclusion
-In this project, I was able to successfully configure and complete a full cloud-native backup service and machine restore to 100% data availability in Azure. Both methods prove to be powerful on-premises data protection solutions, useful in events of service disruptions, accidental deletions or corruption of data. It's equally secure, scalable, and cost-effective as it is simple to architect, highly available, and resilient.
+This project demonstrates the power of cloud-native backup services and machine restoration in Azure. Whether facing service disruptions, accidental deletions, or data corruption, these solutions provide robust on-premises data protection. They combine security, scalability, cost-effectiveness, and architectural simplicity.
 
-## fin
