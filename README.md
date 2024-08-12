@@ -1,4 +1,4 @@
-# Backup-and-Recovery
+# Azure Backup and Recovery: Ensuring High Availability and Secure Data Management
 
 ![Azure Backup Logo](https://imgur.com/GI2Y8rr.jpg)
 
