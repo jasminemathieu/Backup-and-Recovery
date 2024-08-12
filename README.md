@@ -1,10 +1,6 @@
 # Backup-and-Recovery
 
-<div align="center">
-
-![Azure Backup Logo](https://imgur.com/VVl1i8B.jpg)
-
-</div>
+![Azure Backup Logo](https://imgur.com/GI2Y8rr.jpg)
 
 ## Introduction
 
