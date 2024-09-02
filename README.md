@@ -40,7 +40,7 @@ This part of the project will focus on creating a robust backup system and ensur
 
 2. Executable File Download: After creating the backup, we downloaded it as an executable file. This file will help us retrieve the backup on the ‘backup-vm’ machine.
  
-![first backup](https://imgur.com/I35AQGf.jpg)
+![first backup](https://imgur.com/aZxzs3V.jpg)
 
 3. Test Items Deletion: As part of our testing process, we intentionally deleted test items (‘Test server’ and ‘backup sample’). Our goal now is to recover these deleted files.
 
@@ -69,7 +69,7 @@ In this section of the project, we delve into the process of restoring a full vi
    - The backup restore asset, named ‘RecoveredVM,’ was configured (as shown in the image below) and timestamped at 5/21/2024 1:31:18 PM.
    - However, attempts to access the virtual machine failed due to the absence of a public IP address.
 
-![restore vm start](https://imgur.com/sUyeDFV.jpg) 
+![restore vm start](https://imgur.com/i4Xle46.jpg) 
 
 ![config complete](https://imgur.com/YjHN11Z.jpg) 
 
@@ -77,18 +77,18 @@ In this section of the project, we delve into the process of restoring a full vi
  - I encountered challenges while assigning a public IP address to the backup restore machine.
  - Subscription errors hindered the process, leading me to recreate both the VM and its restore machine (as reflected in the images below).
 
-![recoveredvm no ip2](https://imgur.com/6DkPGO0.jpg) 
+![recoveredvm no ip2](https://imgur.com/x62Lok1.jpg) 
 
-![ip issues](https://imgur.com/kY2L63Y.jpg) 
+![ip issues](https://imgur.com/bb87SGH.jpg) 
 
-![take2](https://imgur.com/xgzNybr.jpg) 
+![take2](https://imgur.com/dXkgcNF.jpg) 
 
 3. Successful IP Configuration:
    - Eventually, I configured a public IP address for the ‘RecoveredVM’ machine (as seen in the image below).
 
-![ip config2](https://imgur.com/jLdUYgz.jpg) 
+![ip config2](https://imgur.com/iqx9oxe.jpg) 
 
-![ip complete](https://imgur.com/bbxLRhQ.jpg) 
+![ip complete](https://imgur.com/seRfd8Y.jpg) 
 
 4. Inbound Rules for RDP:
    - To ensure remote desktop access, I created inbound rules.
