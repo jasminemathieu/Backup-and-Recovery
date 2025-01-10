@@ -40,7 +40,7 @@ This part of the project will focus on creating a robust backup system and ensur
 
 2. Executable File Download: After creating the backup, we downloaded it as an executable file. This file will help us retrieve the backup on the ‘backup-vm’ machine.
  
-![first backup](https://imgur.com/aZxzs3V.jpg)
+![first backup](https://imgur.com/VS1CTJ7.jpg)
 
 3. Test Items Deletion: As part of our testing process, we intentionally deleted test items (‘Test server’ and ‘backup sample’). Our goal now is to recover these deleted files.
 
@@ -88,15 +88,15 @@ In this section of the project, we delve into the process of restoring a full vi
 
 ![ip config2](https://imgur.com/iqx9oxe.jpg) 
 
-![ip complete](https://imgur.com/seRfd8Y.jpg) 
+![ip complete](https://imgur.com/aGfrNZi.jpg) 
 
 4. Inbound Rules for RDP:
    - To ensure remote desktop access, I created inbound rules.
    - Confirming successful restore machine duplication with a remote access to the duplicate machine validated my efforts (see confirmation images below).
 
-![RDP config2](https://imgur.com/grXt9DB.jpg) 
+![RDP config2](https://imgur.com/4zWy147.jpg) 
 
-![RDP confirmed](https://imgur.com/5VOZrtJ.jpg) 
+![RDP confirmed](https://imgur.com/jrcDTpX.jpg) 
 
 ![confirm restore](https://imgur.com/ep6oO7G.jpg) 
 
